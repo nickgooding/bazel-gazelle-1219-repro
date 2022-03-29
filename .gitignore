@@ -1,0 +1,5 @@
+bazel-bazel-gazelle-1219-repro
+bazel-bin
+bazel-genfiles
+bazel-out
+bazel-testlogs

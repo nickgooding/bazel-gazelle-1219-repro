@@ -1,0 +1,11 @@
+syntax = 'proto3';
+
+package repro;
+
+import 'repro/foo.proto';
+
+option go_package = "github.com/nickgooding/bazel-gazelle-1219-repro/bar";
+
+message Bar {
+  Foo foo = 1;
+}
